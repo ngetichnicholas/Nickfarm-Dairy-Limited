@@ -1,0 +1,16 @@
+#banner{
+    background-image: url('assets/images/dairyshed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#icon{
+    float: left;
+}
+#menu{
+    float: right;
+}

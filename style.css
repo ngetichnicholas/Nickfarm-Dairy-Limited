@@ -49,10 +49,13 @@
         font-size: 2em;
     }
     #launcher{
-        background-color: white;
-        border:solid 2px red;
-        color: red;
-        padding: 10px 25px;
+        padding-top: 300px;
+    }
+    #launcher a{
+        background-color:white;
+        border:solid 4px rgba(8, 158, 71, 0.678);
+        color: black;
+        padding: 20px 35px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -60,4 +63,7 @@
         margin: 4px 4px;
         cursor: pointer;
         border-radius: 8px;
+    }
+    #launcher a:hover{
+        background-color: rgba(8, 158, 71, 0.678);
     }

@@ -1,3 +1,23 @@
+body{
+    
+}
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#content{
+    background-color: rgba(158, 240, 192, 0.678);
+    width: 40%;
+    float: left;
+   
+}
+#content p{
+    margin: 10px 20px 10px 20px;
+}
+#aboutimage{
+    float: right;
+    width: 40%;
+}
 #header{
     display: flex;
     flex-direction: row;

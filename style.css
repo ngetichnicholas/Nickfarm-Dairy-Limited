@@ -18,6 +18,10 @@ body{
     float: right;
     width: 40%;
 }
+#map{
+    float: right;
+    width: 40%;
+}
 #header{
     display: flex;
     flex-direction: row;

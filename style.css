@@ -10,10 +10,12 @@ body{
     width: 40%;
     float: left;
     padding-bottom: 20px;
+
    
 }
-#content>p>span{
-    border-radius: 2px solid white;
+#dailymilk{
+    align-items: center;
+    margin-left: 40%;
 }
 #content p,table,h3{
     margin: 10px 20px 10px 20px;

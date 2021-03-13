@@ -5,17 +5,21 @@ body{
     width: 100%;
     padding-bottom: 20px;
 }
-#content,#hidden{
+#content{
     background-color: rgba(158, 240, 192, 0.678);
     width: 40%;
     float: left;
     padding-bottom: 20px;
-
-   
 }
-#dailymilk{
+#hidden{
+    background-color: rgba(158, 240, 192, 0.678);
+    width: 40%;
+    padding-bottom: 20px;
+}
+#dailymilk,#projection{
     align-items: center;
     margin-left: 40%;
+    display: block;
 }
 #content p,table,h3{
     margin: 10px 20px 10px 20px;
@@ -167,7 +171,7 @@ table td, table th {
   }
   
   input[type=button] {
-    width: 10%;
+    width: 13%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -178,6 +182,6 @@ table td, table th {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #77ee7d;
   }
   

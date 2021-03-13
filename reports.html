@@ -22,16 +22,16 @@
         </div>
         <div id="container">
             <div id="dailymilk">
-                <form>
+                 <form>
                     SHED A : <input type="text" id="firstshed" /><br>
                     SHED B: <input type="text" id="secondshed" /><br>
                     SHED C : <input type="text" id="thirdshed" /><br>
                     SHED D: <input type="text" id="forthshed" /><br>
                     <input type="button" onClick="milkfunction()" Value="Enter" />
                     <input class="button" type="button" value="Reset" onclick="reset()">
-                    </form>
-                    <p>Summary Report for production today</p><br>
-                    <div id="content">
+                 </form>
+                    <div id="hidden">
+                        <h3>Summary Report for production today</h3>
                         <p>Your production in Shed A is <span id = "shed1"></span> litres per day</p>
                     <p>Your production in Shed A is <span id = "shed2"></span> litres per day</p>
                     <p>Your production in Shed A is <span id = "shed3"></span> litres per day</p>

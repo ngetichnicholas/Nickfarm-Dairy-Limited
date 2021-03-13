@@ -9,7 +9,7 @@ function milkfunction() {
       shed3 = parseFloat(shed3);
       shed4 = parseFloat(shed4);
       var totalmilk=shed1+shed2+shed3+shed4;
-
+      document.getElementById("hidden").style.display = 'block';
       document.getElementById("shed1").innerHTML=shed1;
       document.getElementById("shed2").innerHTML=shed2;
       document.getElementById("shed3").innerHTML=shed3;

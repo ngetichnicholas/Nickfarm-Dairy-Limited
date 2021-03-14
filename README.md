@@ -3,7 +3,7 @@
 Nicholas Ngetich
 ## Description
 This is website about my dream Dairy Business Company. It has homepage,reports,contacts and about us pages.
-![alt text](https://github.com/ngetichnicholas/Anitas-Kitchen/blob/master/Anitas-Kitchen.png?raw=true)
+![alt text](https://github.com/ngetichnicholas/Nickfarm-Dairy-Limited/blob/master/Dairy%20Business%20%20%20%20Nickfarm%20(1).png)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -22,4 +22,4 @@ To access this project on your local files, you can clone it using these steps
 ### Live Site
 View [live](https://ngetichnicholas.github.io/Nickfarm-Dairy-Limited/)
 ### Licence
-This project is under the  [MIT](https://github.com/ngetichnicholas/Anitas-Kitchen/blob/master/LICENSE.md) licence
+This project is under the  [MIT](https://github.com/ngetichnicholas/Nickfarm-Dairy-Limited/blob/master/LICENSE.md) licence

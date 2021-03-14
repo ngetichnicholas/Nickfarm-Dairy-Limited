@@ -218,4 +218,21 @@ table td, table th {
         background: rgba(8, 158, 71, 0.678);
         color: black;
         }
+        #content{
+            align-items: center;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+        #table{
+            align-items: center;
+        }
+        #aboutimage{
+            text-align: center;
+            width: 100%;
+        }
+        #map{
+            align-items: center;
+            width: 100%;
+            float: right;
+        }
   }

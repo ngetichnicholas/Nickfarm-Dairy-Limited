@@ -193,7 +193,7 @@ table td, table th {
         background-color: white;
     }
     #icon img{
-        width: 450px;
+        width: 200px;
         height: auto;
     }
     #menu{
@@ -235,7 +235,7 @@ table td, table th {
             width: 100%;
         }
         #aboutimage img{
-            width: 440px;
+            width: 350px;
         }
         #map{
             align-items: center;
@@ -250,7 +250,8 @@ table td, table th {
             margin-left: 20%;
         }
         input[type=button] {
-            width: 30%;
+            width: 50%;
+            display: block;
           }
           html{
             width:100%;

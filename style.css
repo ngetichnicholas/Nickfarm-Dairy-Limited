@@ -11,13 +11,13 @@ body{
     float: left;
     padding-bottom: 20px;
 }
-#hidden,#hidden2{
+#hidden,#hidden2,#hidden3{
     background-color: rgba(158, 240, 192, 0.678);
     width: 40%;
     padding-bottom: 20px;
     display: none;
 }
-#dailymilk,#projection{
+#dailymilk,#projection,#yearrevenue{
     align-items: center;
     margin-left: 40%;
     display: block;

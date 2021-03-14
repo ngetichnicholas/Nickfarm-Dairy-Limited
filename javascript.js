@@ -55,7 +55,7 @@ function reset() {
   for (i = 0; i<months.length; i++){
     output = daymonth[i] * incomePerDay;
     document.getElementById("hidden3").style.display = 'block';
-    document.getElementById("hidden3").innerHTML+=("Your income for " + months[i] +  "is  Ksh" + output + "</p>");
+    document.getElementById("hidden3").innerHTML+=("Your income for " + months[i] +  "is  Ksh  " + output + "</p>");
   }
 }
  }

@@ -1,6 +1,4 @@
-body{
-    
-}
+
 #container{
     width: 100%;
     padding-bottom: 20px;
@@ -183,4 +181,41 @@ table td, table th {
   input[type=submit]:hover {
     background-color: #77ee7d;
   }
-  
+  @media only screen and (max-width: 1277px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        background-color: rgba(8, 158, 71, 0.678);
+    }
+    #icon{
+        width: 100%;
+        background-color: white;
+    }
+    #menu{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        margin-right: 10px;
+     }
+     #menu ul{
+        text-align: center;
+    }
+     #menu ul li{
+         display: block;
+         margin: 20px;
+         text-transform: uppercase;
+     }
+     #menu>ul>li>a {
+        padding: 18px;
+        margin-right: 0;
+        text-transform: uppercase;
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    #menu>ul>li>a:hover {
+        background: rgba(8, 158, 71, 0.678);
+        color: black;
+        }
+  }

@@ -43,4 +43,18 @@ function reset() {
     document.getElementById("yearly").innerHTML=yearly;
    }
   }
-  
+ function revenue(){
+  var production=(document.getElementById("total").value);
+  if(production.length===0){
+    alert("Empty fields not allowed");
+  }else{
+    production =parseFloat(production);
+    var incomePerDay=production*45;
+  var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var daymonth= [ 31,29,31,30,31,30,31,31,30,31,30,31];
+  for (i = 0; i<months.length; i++){
+    output = daymonth[i] * incomePerDay;
+    document.getElementById("hidden3").innerHTML+=("Your income for " + months[i] +  "is  Ksh" + output + "</p>");
+  }
+}
+ }
